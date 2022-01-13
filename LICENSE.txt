@@ -23,4 +23,7 @@ Because when we created the Git repository, Git automatically created the only m
 
 git checkout -- $file : cancel the operation and back to the last 'git commit' or 'git add'
 
- 
+deleting files is an operation. it will be shown in 'git status'
+if you really wanna delete them, you should use 'git rm $filename' and 'git commit'
+
+
