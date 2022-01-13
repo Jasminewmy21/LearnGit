@@ -1,0 +1,23 @@
+git init
+git add $filename
+git commit -m "message"
+git status
+git diff
+git log
+git log --pretty=online
+HEAD HEAD^ HEAD^^ ...  HEAD~100
+eg: git reset --hard HEAD^
+
+git reflog
+then find the 'commit id' to version you want
+
+GitCode is 'working directory'
+
+.git is 'repository'
+
+git will automatically create the first 'master' for us and there is a pointer named 'HEAD' to 'master'.
+
+'git add' means adding file modifications to the 'stage'.
+'git cmmit' means commiting all the content of 'stage' to the current branch.
+Because when we created the Git repository, Git automatically created the only master branch for us, so now, git commit is to commit changes to the master branch.
+ 
