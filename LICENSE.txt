@@ -20,4 +20,7 @@ git will automatically create the first 'master' for us and there is a pointer n
 'git add' means adding file modifications to the 'stage'.
 'git cmmit' means commiting all the content of 'stage' to the current branch.
 Because when we created the Git repository, Git automatically created the only master branch for us, so now, git commit is to commit changes to the master branch.
+
+git checkout -- $file : cancel the operation and back to the last 'git commit' or 'git add'
+
  
