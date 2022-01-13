@@ -26,4 +26,4 @@ git checkout -- $file : cancel the operation and back to the last 'git commit' o
 deleting files is an operation. it will be shown in 'git status'
 if you really wanna delete them, you should use 'git rm $filename' and 'git commit'
 
-
+add remote repository: https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440
