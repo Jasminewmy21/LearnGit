@@ -57,4 +57,7 @@ Create and merge branch
 合并某分支到当前分支：git merge <name>
 删除分支： git branch -d <name>
 
+开发一个新feature， 最好新建一个分支
+如果要丢弃一个没有被合并过的分支，通过git branch -D <name> 强行删除
+
 
