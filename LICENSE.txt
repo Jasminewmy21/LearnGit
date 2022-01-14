@@ -72,4 +72,11 @@ git log --graph 看分支合并图
 合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过分支
 而fast forward合并看不出曾做过合并
 
+Bug分支：https://www.liaoxuefeng.com/wiki/896043488029600/900388704535136
+
+工作没有完成，先把工作现场git stash，再创建bug分支
+修复后，git stash pop，回到工作现场
+在master分支上修复的bug，想要合并到当前dev分支，用git cherry-pick <commit id>
+把bug提交的修改复制到当前分支，不必重复劳动
+
 
