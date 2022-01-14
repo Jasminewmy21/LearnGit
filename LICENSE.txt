@@ -82,4 +82,8 @@ Bug分支：https://www.liaoxuefeng.com/wiki/896043488029600/900388704535136
 在master分支上修复的bug，想要合并到当前dev分支，用git cherry-pick <commit id>
 把bug提交的修改复制到当前分支，不必重复劳动
 
+feature branch
+开发一个新feature，最好新建一个分支；
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除
+
 
