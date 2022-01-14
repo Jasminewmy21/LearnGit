@@ -1,0 +1,16 @@
+标签：
+
+注意：
+
+标签总是和某个commit挂钩
+如果这个commit既出现在master分支，又出现在dev分支，那么在这两个分支上都可以看到这个标签。
+
+小结：
+
+命令git tag <tagname> <commit-id> 用于新建一个标签，不写commit-id默认为HEAD，也可以指定一个commit id；
+
+命令git tag -a <tagname> -m "message" 可以指定标签信息；
+
+命令git tag可以查看所有标签
+
+命令git show <tagname> 可以看到说明文字
