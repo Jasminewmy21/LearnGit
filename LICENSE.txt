@@ -57,6 +57,9 @@ Create and merge branch
 合并某分支到当前分支：git merge <name>
 删除分支： git branch -d <name>
 
+开发一个新feature， 最好新建一个分支
+如果要丢弃一个没有被合并过的分支，通过git branch -D <name> 强行删除
+
 
 当Git无法自动合并分支时，必须首先解决冲突，解决完后再提交，合并完成
 解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交
